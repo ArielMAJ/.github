@@ -24,6 +24,10 @@ body:
         4. See error
     validations:
       required: true
+  - type: textarea
+    attributes:
+      label: Suggested solution
+      description: Describe a possible solution.
   - type: dropdown
     attributes:
       multiple: true
